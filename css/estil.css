@@ -2,7 +2,7 @@
   font-family: sans-serif;
 }
 
-<!-- Estil de la 1a secció o capçalera... -->
+/* Estil de la 1a secció o capçalera... */
 
 .cap {
     margin: 1% 5%;
@@ -14,8 +14,8 @@
     max-width:100%;
 }
 
-<!-- Estil de la secció main que conté paràgrafs i estructura 
-de 3 ó 1 columna. -->
+/* Estil de la secció main que conté paràgrafs i estructura 
+de 3 ó 1 columna. */
 
 .main {
   float: left;
@@ -24,8 +24,8 @@ de 3 ó 1 columna. -->
   background-color:  #FFC300;
 }
 
-<!-- Estil de la classe  col3 que implementa la divisió en 3 de l'ample 
-del main amb imatges responsives -->
+/* Estil de la classe  col3 que implementa la divisió en 3 de l'ample 
+del main amb imatges responsives */
 
 .col3 {
   float: left;
@@ -39,7 +39,7 @@ del main amb imatges responsives -->
     background-color:  #11C300;
 }
 
-<!-- Estil del peu... -->
+/* Estil del peu... */
 
 .peu {
     float: left;
@@ -47,7 +47,7 @@ del main amb imatges responsives -->
     background-color:#ffc;
 }
 
-<!-- Punt de ruptura en 620px per a pantalles menudes... -->
+/* Punt de ruptura en 620px per a pantalles menudes... */
 
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
