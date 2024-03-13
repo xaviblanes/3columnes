@@ -1,46 +1,68 @@
+<!--
+    Un exemple de web responsiva tipus Aules amb imatges a 3 columnes o 1
+-->
+
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/estil.css">
-</head>
-<body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estil.css">
+    </head>
+    <body>
+    
+    <!-- Un text + imatge de capçalera adaptativa en % i max-wydht -->
 
-<div class="cap">
-  <h1>Hello World</h1>
-  <img src="images/main.png"><br>
-</div>
+    <div class="cap">
+        <h1>Hello World</h1>
+        <img src="images/main.png"><br>
+    </div>
 
-<div class="main">
+    <!-- La secció main és un contenidor de text u l'estructura d'imatges 
+    a 3 ó 1 columna -->
 
-  <div class="col3">
-    <img src="images/logo1.png"><br>
-    <img src="images/logo1.png"><br>
-    <img src="images/logo1.png"><br>
-  </div>
+    <div class="main">
 
-  <div class="col3">
-    <img src="images/logo2.png"><br>
-    <img src="images/logo2.png"><br>
-    <img src="images/logo2.png"><br>
-  </div>
+    <!-- Una secció d'un terç d'amplada del main, imatges responsives i 
+    punt de ruptura en 620px per a pantalles menudes -->
 
-  <div class="col3">
-    <img src="images/logo3.png"><br>
-    <img src="images/logo3.png"><br>
-    <img src="images/logo3.png"><br>
-  </div>
+        <div class="col3">
+            <img src="images/logo1.png"><br>
+            <img src="images/logo1.png"><br>
+            <img src="images/logo1.png"><br>
+        </div>
 
+    <!-- Altra secció d'un terç d'amplada del main, imatges responsives i 
+    punt de ruptura en 620px per a pantalles menudes -->
 
-    <h2>Lorum Ipsum</h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-  </div>
+        <div class="col3">
+            <img src="images/logo2.png"><br>
+            <img src="images/logo2.png"><br>
+            <img src="images/logo2.png"><br>
+        </div>
 
+    <!-- Darrera secció d'un terç d'amplada del main, imatges responsives i 
+    punt de ruptura en 620px per a pantalles menudes -->
+ 
+        <div class="col3">
+            <img src="images/logo3.png"><br>
+            <img src="images/logo3.png"><br>
+            <img src="images/logo3.png"><br>
+    </div>
 
-<div class="peu">
-    <i>(c) Xavi Blanes 2024</i>
-</div>
+    <!-- Un paràgraf... -->
 
-</body>
+        <h2>Lorum Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam 
+        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat 
+        volutpat.</p>
+    </div>
+
+    <!-- El peu de la web... -->
+
+    <div class="peu">
+        <i>(c) Xavi Blanes 2024</i>
+    </div>
+
+    </body>
 </html>
 
