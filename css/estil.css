@@ -1,6 +1,15 @@
 * {
   font-family: sans-serif;
 }
+.cap {
+    margin: 1% 5%;
+    padding: 0 0;
+    background-color:#ccc;
+    text-align: center;
+}
+.cap img {
+    max-width:100%;
+}
 
 .main {
   float: left;
@@ -16,8 +25,7 @@
 }
 
 .col3 img {
-    max-width:100%;
-    width:80%;
+    max-width:80%;
     padding: 20% 10%;
     background-color:  #11C300;
 }
