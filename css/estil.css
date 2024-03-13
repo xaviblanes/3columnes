@@ -1,6 +1,9 @@
 * {
   font-family: sans-serif;
 }
+
+<!-- Estil de la 1a secció o capçalera... -->
+
 .cap {
     margin: 1% 5%;
     padding: 0 0;
@@ -11,12 +14,18 @@
     max-width:100%;
 }
 
+<!-- Estil de la secció main que conté paràgrafs i estructura 
+de 3 ó 1 columna. -->
+
 .main {
   float: left;
   width: 90%;
   margin: 5%;
   background-color:  #FFC300;
 }
+
+<!-- Estil de la classe  col3 que implementa la divisió en 3 de l'ample 
+del main amb imatges responsives -->
 
 .col3 {
   float: left;
@@ -29,6 +38,16 @@
     padding: 20% 10%;
     background-color:  #11C300;
 }
+
+<!-- Estil del peu... -->
+
+.peu {
+    float: left;
+    margin: 1% 5%;
+    background-color:#ffc;
+}
+
+<!-- Punt de ruptura en 620px per a pantalles menudes... -->
 
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
